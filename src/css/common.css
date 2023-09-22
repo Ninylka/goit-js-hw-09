@@ -16,3 +16,54 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+margin-right: 15px;
+margin-top: 15px;
+}
+
+.value{
+  font-size: 30px;
+  
+}
+.label {
+  line-height: 1;
+  font-size: 15px;
+}
+.form {
+  display: flex;
+    gap:  5px;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+
+
+}
+
+
+.form button {
+border-radius: 3cqmax;
+font-size: 20px;
+font-weight: 600;
+margin-top: 29px;
+
+
+
+}
+.form input {
+  height: 29px;
+   border-radius: 3cqmax;
+}
+
+
